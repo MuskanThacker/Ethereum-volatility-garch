@@ -4,22 +4,18 @@ GARCH-based modeling of Ethereum returns to analyze volatility clustering and pe
 
 # Ethereum Volatility Modeling using GARCH Family Models (Python)
 
-## 📊 Project Overview
+## Project Overview:
 This project analyzes the time-varying volatility of Ethereum returns using multiple models from the GARCH family — GARCH, TGARCH and EGARCH.
 
 Cryptocurrency markets are known for high volatility and asymmetric responses to shocks. This study compares different volatility models to identify which best captures Ethereum’s return dynamics.
 
-
-
-## 🎯 Objectives
+## Objectives:
 - Examine volatility patterns in Ethereum returns  
 - Model conditional variance using GARCH-type models  
 - Capture asymmetry in volatility (leverage effects)  
 - Compare model performance and identify the best fit (in this case it's EGARCH)  
 
-
-
-## 🧠 Methodology
+## Methodology:
 
 ### 1. Data Preparation
 - Collected Ethereum price data  
@@ -37,12 +33,9 @@ The following models were estimated:
 Models were compared using:
 - Log-likelihood  
 - Information criteria (AIC/BIC)  
-- Ability to capture volatility clustering and asymmetry  
-
-
-
+- Ability to capture volatility clustering and asymmetry
+- 
 ## Key Results & Insights
-
 - Ethereum returns exhibit strong **volatility clustering**  
 - Evidence of **asymmetric volatility** — negative shocks impact volatility differently than positive shocks  
 - Standard GARCH captures persistence but fails to fully capture asymmetry  
@@ -53,24 +46,19 @@ Models were compared using:
 - It handles volatility dynamics more flexibly due to its logarithmic specification  
 - Provides a better fit for crypto market behavior  
 
----
-
 ## Model Interpretation Notes
 - High persistence observed (α + β close to 1 in GARCH-type models)  
 - Indicates **slow decay of volatility shocks**  
 - Highlights risk and unpredictability in crypto markets  
 
-
-## 🧰 Tools & Libraries
+## Tools & Libraries
 - Python  
 - `pandas` → data handling  
 - `numpy` → numerical computation  
 - `arch` → volatility modeling  
 - `matplotlib`, `seaborn` → visualization  
 
-
-
-## 📁 Project Structure
+## Project Structure
 - `GARCH_Ethereum.ipynb` → full analysis and model comparison  
 ---
 
