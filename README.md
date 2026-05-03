@@ -1,8 +1,6 @@
-# Ethereum-volatility-garch
-GARCH-based modeling of Ethereum returns to analyze volatility clustering and persistence in crypto markets (Python)
-
-
 # Ethereum Volatility Modeling using GARCH Family Models (Python)
+
+GARCH-based modeling of Ethereum returns to analyze volatility clustering and persistence in crypto markets (Python)
 
 ## Project Overview:
 This project analyzes the time-varying volatility of Ethereum returns using multiple models from the GARCH family — GARCH, TGARCH and EGARCH.
