@@ -62,7 +62,7 @@ Models were compared using:
 - `GARCH_Ethereum.ipynb` → full analysis and model comparison  
 ---
 
-## 🚀 How to Run
+## How to Run
 1. Open the notebook in Jupyter Notebook / Google Colab  
 2. Run code
 3. import the data file "crypto_volatility_dec2025_FINAL_2025-12-09.csv"
